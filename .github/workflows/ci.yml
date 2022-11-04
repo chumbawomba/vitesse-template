@@ -10,6 +10,12 @@ on:
       - main
 
 jobs:
+  smile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Smile
+      run: echo ":^)"
+
   lint:
     runs-on: ubuntu-latest
     steps:
