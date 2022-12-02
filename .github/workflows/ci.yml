@@ -10,6 +10,7 @@ on:
       - main
 
 jobs:
+  # TODO then job for deploying (find a host first)
   smile:
     runs-on: ubuntu-latest
     steps:
